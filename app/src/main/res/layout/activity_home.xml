@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="418dp"
+                android:layout_height="72dp"
+                android:layout_marginRight="50dp"
+                app:srcCompat="@drawable/header" />
+
+
+            <SearchView
+                android:layout_width="283dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/search_background"
+                android:queryHint="Search events here" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/discover"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="329dp"
+                android:layout_height="133dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/kalapola2" />
+
+            <LinearLayout
+                android:layout_width="364dp"
+                android:layout_height="78dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/discrip1"
+                    android:textColor="@color/material_dynamic_neutral30"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView24"
+                    android:layout_width="78dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/going1" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="72dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="Going"
+                    android:textStyle="bold"
+                    tools:textColor="@color/material_dynamic_neutral30" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageeve"
+                android:layout_width="329dp"
+                android:layout_height="133dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/home2" />
+
+            <LinearLayout
+                android:layout_width="366dp"
+                android:layout_height="62dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textdescrip2"
+                    android:layout_width="182dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/discrip2"
+                    android:textColor="@color/material_dynamic_neutral30"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imagegoing2"
+                    android:layout_width="77dp"
+                    android:layout_height="39dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/going2" />
+
+                <TextView
+                    android:id="@+id/textViewgoing"
+                    android:layout_width="72dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="Going"
+                    android:textStyle="bold"
+                    tools:textColor="@color/material_dynamic_neutral30" />
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/imagehome4"
+                android:layout_width="329dp"
+                android:layout_height="125dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/home3" />
+
+            <LinearLayout
+                android:layout_width="366dp"
+                android:layout_height="73dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textdescrip3"
+                    android:layout_width="192dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/discrip3"
+                    android:textColor="@color/material_dynamic_neutral30"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imagegoing3"
+                    android:layout_width="74dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/going3" />
+
+                <TextView
+                    android:id="@+id/textViewgoing3"
+                    android:layout_width="72dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="Going"
+                    android:textStyle="bold"
+                    tools:textColor="@color/material_dynamic_neutral30" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="61dp"
+                android:background="@color/Purple"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/homeimage2"
+                    android:layout_width="94dp"
+                    android:layout_height="41dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/homei" />
+
+                <ImageView
+                    android:id="@+id/listimage2"
+                    android:layout_width="91dp"
+                    android:layout_height="53dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/listi" />
+
+                <ImageView
+                    android:id="@+id/favimage2"
+                    android:layout_width="89dp"
+                    android:layout_height="59dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/favoritei" />
+
+                <ImageView
+                    android:id="@+id/profileimage2"
+                    android:layout_width="92dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/profilei" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

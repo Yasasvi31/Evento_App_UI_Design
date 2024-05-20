@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">MAD lab exam 02</string>
+    <string name="started">Get Started</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Log in</string>
+    <string name="edit">Edit</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="login_des">Hi,\nPlease Login</string>
+    <string name="create_account">Create Your\nAccount</string>
+    <string name="welcome">Welcome to \nEvento</string>
+    <string name="note"> Discover exciting happenings near you and personalize your experience effortlessly.</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="hint1">Enter Your Email</string>
+    <string name="hint2">Enter Your Password</string>
+    <string name="forget_pw">Forget Your Password? Recover it.</string>
+    <string name="login_with">Or Login with</string>
+    <string name="account">Don’t have an account ? Sign up</string>
+    <string name="name">Name</string>
+    <string name="contact_no">Contact number</string>
+    <string name="hint3">Enter Your Name</string>
+    <string name="hint4">Enter Your Phone number</string>
+    <string name="event_topic">Thaala Live in Concert</string>
+    <string name="event_time"> Sat,March 09 -6.30 PM onwards\nAt Nelum Kuluna</string>
+    <string name="event_abt">About Event</string>
+    <string name="event_des">\nThala Live in Concert at Nelum Kulun features renowned artists including
+                             Dinesh Gamage, Hana Shafa,  Wasthi and Daddy Band, captivating audiences with their
+                             mesmerizing performances across diverse musical genres.</string>
+    <string name="ticket">Buy Ticket</string>
+    <string name="hi_msg">Hi Anne</string>
+
+    <string name="favourites">Favorites</string>
+    <string name="date1">Wed,Feb 22</string>
+    <string name="dis1">Kala Pola 2024\n123/b Green path,Colombo</string>
+    <string name="date2">Sat,Jan 12</string>
+    <string name="dis2">NadaGama\nKompanna widiya,Colombo</string>
+    <string name="date3">Fri,Jan 6</string>
+    <string name="dis3">Edu -expo\nBMICH,\nColombo 07</string>
+    <string name="back">Back</string>
+    <string name="uname">Anne Perera</string>
+    <string name="ename">anneperera111@gmail.com</string>
+    <string name="settings">Settings</string>
+    <string name="addevent">Add event</string>
+    <string name="support">Support</string>
+    <string name="share">Share</string>
+    <string name="aboutus">About us</string>
+
+    <string name="myevent">My Events</string>
+    <string name="upevent">Upcoming events</string>
+    <string name="finishevent">Finished events</string>
+    <string name="event1">Thaala Live in concert \nMarch 8</string>
+    <string name="event2">Food Fest 2024\nFebruary 26</string>
+    <string name="event3">Colombo Fashion Week\nMarch 21</string>
+    <string name="event4">Blood Donation Camp\nFebruary 12</string>
+    <string name="event5">Navam Maha Perahara\nFebruary 8</string>
+
+    <string name="addEvent">Add Event</string>
+    <string name="nEvent">  Event name</string>
+    <string name="tEvent"> Date and Time</string>
+    <string name="dEvent"> Description</string>
+    <string name="lEvent">Location</string>
+    <string name="iEvent">Add images</string>
+    <string name="discover">Discover events near you</string>
+    <string name="discrip1">Kala Pola 2024\nAt 123/b green path,colombo\nFeb12|8.00 AM</string>
+    <string name="discrip2">Thala Live in concert\nAt Nelum Kuluna\nMar 09|6.30 PM</string>
+    <string name="discrip3">Food Fest 24 \nAt Nawinna ground,Maharagama\nFeb 26|9.30 PM</string>
+
+</resources>
+

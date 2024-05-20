@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Favourites">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="422dp"
+            android:layout_height="73dp"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/favourites"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/date1"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            tools:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="334dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_background"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="124dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/kalapola1" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="80dp"
+                android:layout_height="82dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="@string/dis1"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="13dp"
+                android:layout_height="66dp"
+                android:layout_marginTop="80dp"
+                android:layout_weight="1"
+                android:scaleType="fitEnd"
+                app:srcCompat="@drawable/favicon" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="22dp"
+            android:text="@string/date2"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+
+        <LinearLayout
+            android:layout_width="334dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_background"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/nadagamapic"
+                android:layout_width="124dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/nadagama" />
+
+            <TextView
+                android:id="@+id/nadagama"
+                android:layout_width="80dp"
+                android:layout_height="82dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="@string/dis2"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/icons"
+                android:layout_width="13dp"
+                android:layout_height="66dp"
+                android:layout_marginTop="80dp"
+                android:layout_weight="1"
+                android:scaleType="fitEnd"
+                app:srcCompat="@drawable/favicon" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="22dp"
+            android:text="@string/date3"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            tools:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="334dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_background"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/edupic"
+                android:layout_width="124dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/edu" />
+
+            <TextView
+                android:id="@+id/edu"
+                android:layout_width="80dp"
+                android:layout_height="82dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="@string/dis3"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/icon2"
+                android:layout_width="13dp"
+                android:layout_height="66dp"
+                android:layout_marginTop="80dp"
+                android:layout_weight="1"
+                android:scaleType="fitEnd"
+                app:srcCompat="@drawable/favicon" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="56dp"
+            android:background="@color/Purple"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/homeimage1"
+                android:layout_width="94dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/homei" />
+
+            <ImageView
+                android:id="@+id/listimage1"
+                android:layout_width="91dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="12dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/listi" />
+
+            <ImageView
+                android:id="@+id/favimage1"
+                android:layout_width="89dp"
+                android:layout_height="59dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/favoritei" />
+
+            <ImageView
+                android:id="@+id/profileimage1"
+                android:layout_width="92dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="14dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/profilei" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
